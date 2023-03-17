@@ -1,74 +1,53 @@
-# Getting Started with Create React App
+# A real-time ChatApp
+Team management software. Add/Edit/Delete team members with their relevant info on in an intuitive userface.
+## Team members
+* Owner: Winston Tang
+## live link [(https://fabulous-parfait-f32813.netlify.app/contact)](https://fabulous-parfait-f32813.netlify.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## repo
+#### Backend:https://github.com/wlnston1/capstone-backend
+#### Frontend:https://github.com/wlnston1/capstone-front
 
-In the project directory, you can run:
+## Wireframe
+![Screenshot 2023-03-16 at 9 48 11 PM](https://user-images.githubusercontent.com/106902383/225815201-51f779f8-7067-4b89-a0c7-72429988d460.png)
+![Screenshot 2023-03-14 at 6 16 00 PM](https://user-images.githubusercontent.com/106902383/225812262-3b7b29d4-4ea6-4c69-ad79-402463085d64.png)
+![Screenshot 2023-03-16 at 9 26 58 PM](https://user-images.githubusercontent.com/106902383/225812576-3022016f-d552-4fad-9447-3b6c2c25f96c.png)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Technologies Used
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* React
+* Tailwind
+* Express
+* MongoDB
+* Full CRUD
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## how to use the app
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* As a user, you can see an at-a-glance view of your team.
+* Select a user and all their pertinent info and country flag will appear in the windows above.
+* Editing and Deleting an account is simple. Just click on the appropriate buttons in the action section.
+* Adding a member is easy, simply click 'Add Employee'. Fill out all prompts and hit submit.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ ## future enhancements
+ * allow user to login / logout
+ * authentication for user to register / login / logout
+ * set avatar for each user
+ * add visualizations for data
+ 
+ ## Trello board 
+ [live link]([https://trello.com/b/Ep2395qR/project-4](https://trello.com/b/5mqK9OYo/spare-parts-dashboard))
+![Screenshot 2023-03-14 at 7 49 57 PM](https://user-images.githubusercontent.com/106902383/225812361-7bb143e9-16d6-458b-a17c-d0e69d97dc22.png)
 
-### `npm run eject`
+ 
+ 
+ ## Model ERD
+![Screenshot 2023-03-16 at 9 39 03 PM](https://user-images.githubusercontent.com/106902383/225814062-af4248f1-11b0-4c13-ab16-92b73229150d.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# capstone
-# capstone-frontend
-# capstone-frontend
-# capstone-front
+ 
+ 
