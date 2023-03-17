@@ -40,7 +40,7 @@ Team management software. Add/Edit/Delete team members with their relevant info 
  * add visualizations for data
  
  ## Trello board 
- [live link]([https://trello.com/b/Ep2395qR/project-4](https://trello.com/b/5mqK9OYo/spare-parts-dashboard))
+https://trello.com/b/5mqK9OYo/spare-parts-dashboard
 ![Screenshot 2023-03-14 at 7 49 57 PM](https://user-images.githubusercontent.com/106902383/225812361-7bb143e9-16d6-458b-a17c-d0e69d97dc22.png)
 
  
