@@ -11,7 +11,7 @@ function Employee({ onSelectId, onContactStat, onFlag }) {
   }, []);
 
   const getUsers = async () => {
-    const response = await axios.get("http://localhost:8888/api/contact");
+    const response = await axios.get("https://dashboard-app.herokuapp.com/api/contact");
     const data = response.data;
     setUser(data);
 
@@ -29,7 +29,7 @@ function Employee({ onSelectId, onContactStat, onFlag }) {
   };
 
   const deleteUser = async (id) => {
-    await axios.delete(`http://localhost:8888/api/contact/${id}`);
+    await axios.delete(`https://dashboard-app.herokuapp.com/api/contact/${id}`);
     getUsers();
   };
 

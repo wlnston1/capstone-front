@@ -17,7 +17,7 @@ function EditPage() {
   };
 
   const loadUser = async () => {
-    const response = await fetch(`http://localhost:8888/api/contact/${userId}`);
+    const response = await fetch(`https://dashboard-app.herokuapp.com/api/contact/${userId}`);
     const data = await response.json();
     setOldUser(data);
   };
@@ -28,7 +28,7 @@ function EditPage() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-axios.put(`http://localhost:8888/api/contact/${userId}`, (user))
+axios.put(`https://dashboard-app.herokuapp.com/api/contact/${userId}`, (user))
       .then((response) => console.log(response.data))
       .then((data) => {
           setUser(data);

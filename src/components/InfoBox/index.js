@@ -14,7 +14,7 @@ function InfoBox({selectId}) {
 
     async function fetchData() {
       try {
-        const response = await fetch(`http://localhost:8888/api/contact/${selectId}`);
+        const response = await fetch(`https://dashboard-app.herokuapp.com/api/contact/${selectId}`);
         const data = await response.json();
         setData(data);
         console.log(data);

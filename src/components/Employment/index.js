@@ -28,7 +28,7 @@ function Employment() {
     }
 
     axios
-      .post("http://localhost:8888/api/contact", jsonObject)
+      .post("https://dashboard-app.herokuapp.com/api/contact", jsonObject)
       .then((response) => {
         console.log(response);
       }).catch
